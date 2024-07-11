@@ -6,9 +6,10 @@ import Home from './Pages/Home';
 import NotFound from './Pages/NotFound';
 import {Routes,Route} from 'react-router-dom';
 import About from './Pages/About';
-import Services from './Pages/Services';
+import Services from './Pages/Whyus';
 import OurClients from './Pages/OurClients';
 import Contact from './Pages/Contact';
+import Whyus from './Pages/Whyus';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       <Routes>
         <Route path ='/' element={<Home/>}/>
         <Route path ='/about' element={<About/>}/>
-        <Route path ='/services' element={<Services/>}/>
+        <Route path ='/services' element={<Whyus/>}/>
         <Route path ='/our-clients' element={<OurClients/>}/>
         <Route path ='/contact' element={<Contact/>}/>
         <Route path ='*' element={<NotFound/>}/>

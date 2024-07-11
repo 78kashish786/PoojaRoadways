@@ -1,12 +1,13 @@
 import React from 'react'
 import Main from '../Components/Main'
 
-const Services = () => {
+const Whyus = () => {
   return (
     <Main>
-        Services
+        
     </Main>
   )
 }
 
-export default Services
+export default Whyus
+
