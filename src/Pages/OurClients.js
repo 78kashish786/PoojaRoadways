@@ -3,7 +3,7 @@ import Main from '../Components/Main'
 
 const OurClients = () => {
   return (
-    <Main>
+    <Main >
         Our Clients
     </Main>
   )
