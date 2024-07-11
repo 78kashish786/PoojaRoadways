@@ -12,6 +12,9 @@ const OurClientsSection = () => {
             <img src={require('../../Assets/RamRatan.png')}/>
             <img src={require('../../Assets/vimal.png')}/>
             <img src={require('../../Assets/varuna.webp')}/>
+            <img src={require('../../Assets/US.jpeg')}/>
+            <img src={require('../../Assets/relianc3e.png')}/>
+
           </div>
         </div>
   )
