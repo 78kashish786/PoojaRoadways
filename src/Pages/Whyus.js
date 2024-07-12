@@ -26,7 +26,7 @@ const Whyus = () => {
           <h1 className='text-xl font-semibold text-red-600'>Why us?</h1>
           <h2 className='text-3xl md:text-6xl font-light'>Reliable Trucking Services<br/>for Your Business Needs</h2>
           <h3 className='text-sm md:text-lg font-md text-gray-700'>All the features need for your business</h3>
-          <FaAnglesDown size={30} className='text-red-600 animate-bounce mx-auto'/>
+          {/* <FaAnglesDown size={30} className='text-red-600 animate-bounce mx-auto z-10'/> */}
         </div>
         <div className='md:grid grid-cols-3 gap-10 pb-5'>
           {data&&data.map((item,index)=>(

@@ -14,7 +14,7 @@ const Header = () => {
       <ul className='hidden md:flex gap-10 uppercase text-sm'>
         <li><NavLink to ='' activeClassName="text-red-100">Home</NavLink></li>
         <li><NavLink to ='/about'>About us</NavLink></li>
-        <li><NavLink to ='/services'>Services</NavLink></li>
+        <li><NavLink to ='/why-us'>Services</NavLink></li>
         <li><NavLink to ='/our-clients'>Our Clients</NavLink></li>
         <li><NavLink to ='/contact'>Contact</NavLink></li>
       </ul>

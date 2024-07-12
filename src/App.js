@@ -39,7 +39,7 @@ function App() {
       <Routes>
         <Route path ='/' element={<Home/>}/>
         <Route path ='/about' element={<About/>}/>
-        <Route path ='/services' element={<Whyus/>}/>
+        <Route path ='/why-us' element={<Whyus/>}/>
         <Route path ='/our-clients' element={<OurClients/>}/>
         <Route path ='/contact' element={<Contact/>}/>
         <Route path ='*' element={<NotFound/>}/>
