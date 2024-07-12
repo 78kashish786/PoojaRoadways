@@ -29,17 +29,11 @@ const Contact = () => {
 
           <div className=' bg-red-400 text-white border border-gray-100 shadow-sm p-5 rounded-xl h-[200px]  flex flex-col justify-between items-start'>
             <FaPhoneAlt size={35}/>
-            <div className='text-left flex  gap-3'>
+            
               <div>
               <h1 className='text-xl font-semibold '>Mr Vikas Sharma</h1>
-              <a >+91 94161 80825, </a>
+              <a >+91 94161 80825, +91 96713 88111 </a>
               </div>
-              <div>
-                <h1 className='text-xl font-semibold '>Mr Vishnu</h1>
-              <a >+91 96713 88111</a>
-              </div>
-              
-            </div>
           </div>
         </div>
       </div>
