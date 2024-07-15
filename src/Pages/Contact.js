@@ -39,14 +39,14 @@ const Contact = () => {
           </div>
         </div>
       </div> */}
-      <div className='md:grid grid-cols-2 bg-gray-100   items-center '>
-        <div className='px-5 md:px-24 space-y-10 '>
-          <h1 className='font-light text-5xl '>Contact <span className='font-md text-red-600'>us</span></h1>
+      <div className=' grid-cols-2 bg-gray-100   items-center '>
+        <div className='px-5 md:px-24 space-y-10 py-10 '>
+          <h1 className='font-light text-5xl mx-auto text-center '>Contact <span className='font-md text-red-600'>us</span></h1>
           {/* <p>cnsdcnksdncknsdcknskdncksdn</p> */}
-          <div className='md:grid grid-cols-2 gap-3 '>
-            <FeatureCardComponent image={'https://cdn-icons-png.flaticon.com/512/4961/4961733.png'} heading={'Proprietor'} para={"Dhimraj sharma"}/>
+          <div className='md:grid grid-cols-4 gap-3 mb-10 '>
+            <FeatureCardComponent image={'https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtNTMzLWljb24tMTY0LnBuZw.png'} heading={'Proprietor'} para={"Deviram sharma"}/>
             <FeatureCardComponent image={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEYhMpKgwj1rwEjTKeyLP2UW957jU8yckfEw&s'} heading={'Office Address'} para={"POOJA ROADWAYS, Goddown no 7 , Lucky complex,Naraingarh Road vill mandhor amala city 134007"}/>
-            <FeatureCardComponent image={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyFH-5_P3FEF5xKoBSFRyN-HuKAZZhkgfGug&s'} heading={'Mr Vishal Sharma'} para={"+91 94161 80825, 96713 88111"}/>
+            <FeatureCardComponent image={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyFH-5_P3FEF5xKoBSFRyN-HuKAZZhkgfGug&s'} heading={'Mr Vishal Sharma'} para={"+91 94161 80825 "} para2={"+91 96713 88111"} />
             <FeatureCardComponent image={'https://cdn-icons-png.freepik.com/512/8743/8743964.png'} heading={'Email Address'} para={"poojaroadways09@gmail.com"}/>
           </div>
         </div>

@@ -17,7 +17,7 @@ const center = [30.3955286, 76.8140563]; // Replace with your latitude and longi
 
 function MapComponent() {
   return (
-    <MapContainer className='w-[100%] h-full z-10   ' center={center} zoom={16} style={{ height: "600px", width: "100%" }}>
+    <MapContainer className='w-[100%] h-full z-10   ' center={center} zoom={16} style={{ height: "400px", width: "100%" }}>
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
