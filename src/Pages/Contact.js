@@ -44,10 +44,10 @@ const Contact = () => {
           <h1 className='font-light text-5xl mx-auto text-center '>Contact <span className='font-md text-red-600'>us</span></h1>
           {/* <p>cnsdcnksdncknsdcknskdncksdn</p> */}
           <div className='md:grid grid-cols-4 gap-3 mb-10 '>
-            <FeatureCardComponent image={'https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3JtNTMzLWljb24tMTY0LnBuZw.png'} heading={'Proprietor'} para={"Deviram sharma"} para2={"+91 81999 80825"}/>
-            <FeatureCardComponent image={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEYhMpKgwj1rwEjTKeyLP2UW957jU8yckfEw&s'} heading={'Office Address'} para={"POOJA ROADWAYS, Goddown no 7 , Lucky complex,Naraingarh Road vill mandhor amala city 134007"}/>
-            <FeatureCardComponent image={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyFH-5_P3FEF5xKoBSFRyN-HuKAZZhkgfGug&s'} heading={'Mr Vikas Sharma'} para={"+91 94161 80825 "} para2={"+91 96713 88111"} />
-            <FeatureCardComponent image={'https://cdn-icons-png.freepik.com/512/8743/8743964.png'} heading={'Email Address'} para={"poojaroadways09@gmail.com"}/>
+            <FeatureCardComponent image={'https://static-00.iconduck.com/assets.00/person-icon-512x512-5lhrcpms.png'} heading={'Proprietor'} para={"Deviram sharma"} para2={"+91 81999 80825"}/>
+            <FeatureCardComponent image={'https://indofact.themechampion.com/wp-content/uploads/2021/05/contact-address-icon.png'} heading={'Office Address'} para={"POOJA ROADWAYS, Goddown no 7 , Lucky complex,Naraingarh Road vill mandhor amala city 134007"}/>
+            <FeatureCardComponent image={'https://indofact.themechampion.com/wp-content/uploads/2021/05/contact-phn-icon.png'} heading={'Mr Vikas Sharma'} para={"+91 94161 80825 "} para2={"+91 96713 88111"} />
+            <FeatureCardComponent image={'https://indofact.themechampion.com/wp-content/uploads/2021/05/contact-msg-icon.png'} heading={'Email Address'} para={"poojaroadways09@gmail.com"}/>
           </div>
         </div>
         {/* Maps */}
