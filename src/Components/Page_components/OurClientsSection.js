@@ -7,11 +7,11 @@ const OurClientsSection = () => {
           <hr className='border-2 border-red-600  w-[5%] flex justify-center mx-auto mt-5'/>
           <div className=' text-center space-y-3 md:grid grid-cols-4 items-center  w-[70%] mx-auto my-10 gap-10'>
             <img src={require('../../Assets/Abott.png')}/>
-            <img src={require('../../Assets/Indo.png')}/>
+            <img src={require('../../Assets/Gautam.png')}/>
             <img src={require('../../Assets/Nahar.jpeg')}/>
             <img src={require('../../Assets/RamRatan.png')}/>
             <img src={require('../../Assets/vimal.png')}/>
-            <img src={require('../../Assets/varuna.webp')}/>
+            <img src={require('../../Assets/Lupin.jpeg')}/>
             <img src={require('../../Assets/US.jpeg')}/>
             <img src={require('../../Assets/relianc3e.png')}/>
 
