@@ -52,7 +52,7 @@ const Footer = () => {
             <hr className='w-[20%] border border-red-600'/>
             <ul className='space-y-5 text-gray-400 text-sm mt-4'>
                 <li>
-                  <h1>Deviram Sharma (Propprietor)</h1>
+                  <h1>Deviram Sharma (Proprietor)</h1>
                   <h2>+91 94161 80825</h2>
                 </li>
                 <li>
