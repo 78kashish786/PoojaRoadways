@@ -1,7 +1,7 @@
 import React from 'react'
 import FeatureCardComponent from '../FeatureCardComponent'
 
-const WhyChooseUsSection = () => {
+const   WhyChooseUsSection = () => {
     const data = [
         {
           image: 'https://www.iconpacks.net/icons/2/free-truck-icon-1756-thumb.png',

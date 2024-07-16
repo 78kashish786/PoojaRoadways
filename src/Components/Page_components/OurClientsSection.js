@@ -9,7 +9,7 @@ const OurClientsSection = () => {
             <img src={require('../../Assets/Abott.png')}/>
             <img src={require('../../Assets/Gautam.png')}/>
             <img src={require('../../Assets/Nahar.jpeg')}/>
-            <img src={require('../../Assets/RamRatan.png')}/>
+            <img src={require('../../Assets/SCPL.png')}/>
             <img src={require('../../Assets/vimal.png')}/>
             <img src={require('../../Assets/Lupin.jpeg')}/>
             <img src={require('../../Assets/US.jpeg')}/>

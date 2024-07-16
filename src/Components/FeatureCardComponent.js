@@ -8,7 +8,7 @@ const FeatureCardComponent = ( {image,heading, para, para2}) => {
   },[])
 
   return (
-    <div data-aos="fade-down"data-aos-delay='300' className='p-4 bg-white text-left flex flex-col justify-between items-start h-[200px] rounded-sm shadow-sm my-3 md:my-0 '>
+    <div data-aos="fade-down"data-aos-delay='300' className='p-4 bg-white text-left flex flex-col justify-between items-start h-[230px] rounded-sm shadow-sm my-3 md:my-0 '>
       <img className='w-[50px]' src={image} alt='logo images for website'/>
       <div className='space-y-1'>
       <h1 className='text-xl font-semibold '>{heading}</h1>

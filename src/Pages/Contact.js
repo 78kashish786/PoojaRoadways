@@ -9,45 +9,14 @@ import MapComponent from '../Components/MapComponent';
 const Contact = () => {
   return (
     <Main>
-      {/* <div className='md:w-[70%] mx-auto py-24 text-center space-y-10 px-5'>
-        <h1 className='font-semibold text-6xl '>Contact us </h1>
-        <p>Conatct us for more information</p>
-        <div className='flex flex-col  md:grid grid-cols-3 gap-5'>
-          <div className=' bg-red-400 text-white border border-gray-100 shadow-sm p-5 rounded-xl h-[200px]  flex flex-col justify-between items-start'>
-            <TfiEmail size={35}/>
-            <div className='text-left'>
-              <h1 className='text-xl font-semibold '>Email</h1>
-              <a href="mailto:poojaroadways9@gmail.com">Poojaroadways9@gmail.com</a>
-            </div>
-          </div>
-
-          <div className=' bg-red-400 text-white border border-gray-100 shadow-sm p-5 rounded-xl h-[200px]  flex flex-col justify-between items-start'>
-            <FaUserAlt size={35}/>
-            <div className='text-left'>
-              <h1 className='text-xl font-semibold '>Proprieter</h1>
-              <a >Mr Deviram Sharma</a>
-            </div>
-          </div>
-
-          <div className=' bg-red-400 text-white border border-gray-100 shadow-sm p-5 rounded-xl h-[200px]  flex flex-col justify-between items-start'>
-            <FaPhoneAlt size={35}/>
-            
-              <div>
-              <h1 className='text-xl font-semibold '>Mr Vikas Sharma</h1>
-              <a >+91 94161 80825, +91 96713 88111 </a>
-              </div>
-          </div>
-        </div>
-      </div> */}
       <div className=' grid-cols-2 bg-gray-100   items-center '>
         <div className='px-5 md:px-24 space-y-10 py-10 '>
           <h1 className='font-light text-5xl mx-auto text-center '>Contact <span className='font-md text-red-600'>us</span></h1>
-          {/* <p>cnsdcnksdncknsdcknskdncksdn</p> */}
           <div className='md:grid grid-cols-4 gap-3 mb-10 '>
             <FeatureCardComponent image={'https://static-00.iconduck.com/assets.00/person-icon-512x512-5lhrcpms.png'} heading={'Proprietor'} para={"Deviram sharma"} para2={"+91 81999 80825"}/>
-            <FeatureCardComponent image={'https://indofact.themechampion.com/wp-content/uploads/2021/05/contact-address-icon.png'} heading={'Office Address'} para={"POOJA ROADWAYS, Goddown no 7 , Lucky complex,Naraingarh Road vill mandhor amala city 134007"}/>
-            <FeatureCardComponent image={'https://indofact.themechampion.com/wp-content/uploads/2021/05/contact-phn-icon.png'} heading={'Mr Vikas Sharma'} para={"+91 94161 80825 "} para2={"+91 96713 88111"} />
-            <FeatureCardComponent image={'https://indofact.themechampion.com/wp-content/uploads/2021/05/contact-msg-icon.png'} heading={'Email Address'} para={"poojaroadways09@gmail.com"}/>
+            <FeatureCardComponent image={'https://indofact.themechampion.com/wp-content/uploads/2021/05/contact-address-icon.png'} heading={'Office Address'} para={"POOJA ROADWAYS, Goddown no 7,Lucky complex,Naraingarh Road vill mandhor amala city 134007"}/>
+            <FeatureCardComponent image={'https://indofact.themechampion.com/wp-content/uploads/2021/05/contact-phn-icon.png'} heading={'Mr Vikas Sharma'} para2={"+91 96713 88111"} />
+            <FeatureCardComponent image={'https://indofact.themechampion.com/wp-content/uploads/2021/05/contact-msg-icon.png'} heading={'Email Address'} para={"poojaroadways9@gmail.com"}/>
           </div>
         </div>
         {/* Maps */}
