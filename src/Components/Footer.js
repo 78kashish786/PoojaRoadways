@@ -13,10 +13,11 @@ const Footer = () => {
         <img className='h-[160px] md:h-[105px]'src={require('../Assets/logo-white.jpg')} alt='logo'/>
         <ul className='flex gap-1 '>
             <li className='p-3 bg-[#455168] rounded-sm '><Link to='https://www.facebook.com/people/POOJA-ROADWAYS/100082203461791/?mibextid=ZbWKwL'><FaFacebookF size={25} className='text-gray-400'/></Link></li>
-            <li className='p-3 bg-[#455168] rounded-sm '><Link to='/'><FaTwitter size={25} className='text-gray-400'/></Link></li>
+
+             <li className='p-3 bg-[#455168] rounded-sm '><Link to='/'><FaTwitter size={25} className='text-gray-400'/></Link></li>
             <li className='p-3 bg-[#455168] rounded-sm '><Link to='/'><FaLinkedin size={25} className='text-gray-400'/></Link></li>
             <li className='p-3 bg-[#455168] rounded-sm '><Link to='/'><FaGooglePlusG size={25} className='text-gray-400'/></Link></li>
-            <li className='p-3 bg-[#455168] rounded-sm '><Link to='/'><FaVimeoV size={25} className='text-gray-400'/></Link></li>
+            <li className='p-3 bg-[#455168] rounded-sm '><Link to='/'><FaVimeoV size={25} className='text-gray-400'/></Link></li> 
         </ul>
       </div>
       {/* Link */}
@@ -52,7 +53,7 @@ const Footer = () => {
             <hr className='w-[20%] border border-red-600'/>
             <ul className='space-y-5 text-gray-400 text-sm mt-4'>
                 <li>
-                  <h1>Deviram Sharma (Propprietor)</h1>
+                  <h1>Deviram Sharma (Proprietor)</h1>
                   <h2>+91 94161 80825</h2>
                 </li>
                 <li>
