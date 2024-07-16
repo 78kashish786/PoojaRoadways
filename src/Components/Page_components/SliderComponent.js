@@ -17,7 +17,7 @@ function SliderComponent () {
         <div>
           <SliderDiv
             image={
-              'https://static.vecteezy.com/system/resources/thumbnails/027/843/401/small_2x/a-cargo-truck-with-a-container-is-seen-driving-across-a-bridge-while-a-semi-truck-with-a-cargo-trailer-follows-closely-behind-photo.jpg'
+              'https://drive.google.com/file/d/1uQj0Y55Y1P-CBiV9Hr0U6r5WWc5ugQ90/view?usp=sharing'
             }
             heading={'Best in Class Transportation Services'}
             subheading={'Pooja Roadways are the leaders in Transport services across India'}

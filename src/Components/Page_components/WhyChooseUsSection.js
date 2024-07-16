@@ -3,29 +3,28 @@ import FeatureCardComponent from '../FeatureCardComponent'
 
 const   WhyChooseUsSection = () => {
     const data = [
-        {
-          image: 'https://www.iconpacks.net/icons/2/free-truck-icon-1756-thumb.png',
-          heading: 'Efficient Delivery',
-          para: 'Count on us for timely and secure delivery of your goods.'
-        },
-        {
-          image:
-            'https://cdn.iconscout.com/icon/free/png-256/free-globe-showing-asia-australia-earth-33895.png',
-          heading: 'Nationwide Coverage',
-          para: 'Our extensive network ensures your cargo reaches every corner of the country.'
-        },
-        {
-          image:
-            'https://png.pngtree.com/png-clipart/20230423/original/pngtree-solution-flat-icon-png-image_9088938.png',
-          heading: 'Tailored Solutions:',
-          para: ' Customized transportation plans to meet your specific business requirements.'
-        },
-        {
-          image:
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9a1UYypUDymgrpb8kFHaLRQiyJC6y8-9AVg&s',
-          heading: 'Modern Fleet:',
-          para: ' State-of-the-art trucks equipped with the latest technology for safe and efficient transport.'
-        }]
+      {
+        image: 'https://cdn-icons-png.flaticon.com/256/2331/2331709.png',
+        heading: 'Competitive Rates',
+        para: ' High-quality service at competitive prices, ensuring value for your money.'
+      },
+      {
+        image: 'https://www.iconpacks.net/icons/2/free-truck-icon-1756-thumb.png',
+        heading: 'Efficient Delivery',
+        para: 'Count on us for timely and secure delivery of your goods.'
+      },
+      {
+        image:
+          'https://cdn.iconscout.com/icon/free/png-256/free-globe-showing-asia-australia-earth-33895.png',
+        heading: 'Nationwide Coverage',
+        para: 'Our extensive network ensures your cargo reaches every corner of the country.'
+      },
+      {
+        image:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9a1UYypUDymgrpb8kFHaLRQiyJC6y8-9AVg&s',
+        heading: 'Modern Fleet:',
+        para: ' State-of-the-art trucks equipped with the latest technology for safe and efficient transport.'
+      },]
   return (
     <div className='px-5 md:px-24 py-8 bg-gray-100 md:grid grid-cols-2'>
       <div className='md:px-6 space-y-8 text-left'>

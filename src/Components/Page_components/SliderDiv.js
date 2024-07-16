@@ -9,7 +9,6 @@ const SliderDiv = ({image, heading, subheading}) => {
             <h1 className='font-semibold text-3xl md:text-6xl text-white'>{heading}</h1>
          <hr className='border border-red-500 w-[20%]'/>
          <h1 className='font-light text-white text-xl md:text-3xl flex-wrap'>{subheading}</h1>
-         <button className='px-6 py-3 bg-red-500 text-white md:text-2xl'>ReadMore</button>
           </div>
         </div>
     // <div className=' w-full h-[90vh] '>
@@ -26,7 +25,7 @@ const SliderDiv = ({image, heading, subheading}) => {
     //   <div className='w-full h-[95%]'>
     //     <img className='object-cover  w-[100%]' src={require('../../Assets/website poster.png')}/>
     //   </div>
-    // </div>
+    // </div> 
     // </>
   )
 }

@@ -14,10 +14,10 @@ const Footer = () => {
         <ul className='flex gap-1 '>
             <li className='p-3 bg-[#455168] rounded-sm '><Link to='https://www.facebook.com/people/POOJA-ROADWAYS/100082203461791/?mibextid=ZbWKwL'><FaFacebookF size={25} className='text-gray-400'/></Link></li>
 
-             <li className='p-3 bg-[#455168] rounded-sm '><Link to='/'><FaTwitter size={25} className='text-gray-400'/></Link></li>
-            <li className='p-3 bg-[#455168] rounded-sm '><Link to='/'><FaLinkedin size={25} className='text-gray-400'/></Link></li>
-            <li className='p-3 bg-[#455168] rounded-sm '><Link to='/'><FaGooglePlusG size={25} className='text-gray-400'/></Link></li>
-            <li className='p-3 bg-[#455168] rounded-sm '><Link to='/'><FaVimeoV size={25} className='text-gray-400'/></Link></li> 
+             <li className='p-3  rounded-sm '><Link to='/'><FaTwitter size={25} className='h-0'/></Link></li>
+            <li className='p-3  rounded-sm '><Link to='/'><FaLinkedin size={25} className='h-0'/></Link></li>
+            <li className='p-3  rounded-sm '><Link to='/'><FaGooglePlusG size={25} className='h-0'/></Link></li>
+            <li className='p-3 rounded-sm '><Link to='/'><FaVimeoV size={25} className='h-0'/></Link></li> 
         </ul>
       </div>
       {/* Link */}
