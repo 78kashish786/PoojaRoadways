@@ -13,10 +13,10 @@ const Footer = () => {
         <img className='h-[160px] md:h-[105px]'src={require('../Assets/logo-white.jpg')} alt='logo'/>
         <ul className='flex gap-1 '>
             <li className='p-3 bg-[#455168] rounded-sm '><Link to='https://www.facebook.com/people/POOJA-ROADWAYS/100082203461791/?mibextid=ZbWKwL'><FaFacebookF size={25} className='text-gray-400'/></Link></li>
-            {/* <li className='p-3 bg-[#455168] rounded-sm '><Link to='/'><FaTwitter size={25} className='text-gray-400'/></Link></li>
+            <li className='p-3 bg-[#455168] rounded-sm '><Link to='/'><FaTwitter size={25} className='text-gray-400'/></Link></li>
             <li className='p-3 bg-[#455168] rounded-sm '><Link to='/'><FaLinkedin size={25} className='text-gray-400'/></Link></li>
             <li className='p-3 bg-[#455168] rounded-sm '><Link to='/'><FaGooglePlusG size={25} className='text-gray-400'/></Link></li>
-            <li className='p-3 bg-[#455168] rounded-sm '><Link to='/'><FaVimeoV size={25} className='text-gray-400'/></Link></li> */}
+            <li className='p-3 bg-[#455168] rounded-sm '><Link to='/'><FaVimeoV size={25} className='text-gray-400'/></Link></li>
         </ul>
       </div>
       {/* Link */}
@@ -61,14 +61,14 @@ const Footer = () => {
                 </li>
                 <li>
                   <h1>Email Address</h1>
-                  <h2>Poojaroadways9@gmail.com</h2>
+                  <h2>poojaroadways9@gmail.com</h2>
                 </li>
             </ul>
         </div>
       </div>
 
 {/* Copyright */}
-<div className='text-center md:py-10 py-1 px-24 bg-[#263143]'>
+<div className='text-center md:py-10 py-3 px-24 bg-[#263143]'>
     <h1 className='flex gap-1 md:text-[12px] text-[10px] justify-center items-center font-md text-gray-400 text-center'><LuCopyright size={15}/> copyright Pooja Roadways</h1>
 </div>
 
