@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Main from '../Components/Main'
 import { TfiEmail } from "react-icons/tfi";
 import { FaUserAlt } from "react-icons/fa";
@@ -7,6 +7,10 @@ import FeatureCardComponent from '../Components/FeatureCardComponent';
 import MapComponent from '../Components/MapComponent';
 
 const Contact = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <Main>
       <div className=' grid-cols-2 bg-gray-100   items-center '>

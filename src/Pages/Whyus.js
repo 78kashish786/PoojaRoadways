@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Main from '../Components/Main'
 import FeatureCardComponent from '../Components/FeatureCardComponent'
 import { FaAnglesDown } from 'react-icons/fa6'
 const Whyus = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   const data = [
     {
       image: 'https://cdn-icons-png.flaticon.com/256/2331/2331709.png',

@@ -16,6 +16,9 @@ import { setLoading } from './Slice/LoadingSlice';
 import Loading from './Components/Route_component/Loading';
 
 function App() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   const location = useLocation();
   const Navigate = useNavigate();

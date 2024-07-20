@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Main from '../Components/Main'
 
 const NotFound = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <Main >
        <div className='flex flex-col text-center justify-center items-center  h-[70vh] md:h-[70vh] space-y-4 my-10'>

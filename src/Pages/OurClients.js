@@ -7,6 +7,10 @@ const OurClients = () => {
   useEffect(()=>{
     AOS.init();
   },[])
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <Main >
         <div className='md:grid grid-cols-2 items-center bg-red-500'>

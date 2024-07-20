@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Main from '../Components/Main'
 import Benefit from '../Components/Page_components/Benefit'
 import Feature from '../Components/Page_components/Feature'
@@ -8,6 +8,10 @@ import OurClientsSection from '../Components/Page_components/OurClientsSection.j
 import WhyChooseUsSection from '../Components/Page_components/WhyChooseUsSection.js'
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <Main>
       <SliderComponent/>
