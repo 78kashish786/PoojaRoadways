@@ -1,7 +1,9 @@
 import React from 'react'
 import Slider from 'react-slick'
 import SliderDiv from './SliderDiv.js'
-
+import Image1 from '../../Assets/website image.jpg'
+import Image2 from '../../Assets/website poster.png'
+import Image3 from '../../Assets/website file photo edit.png'
 function SliderComponent () {
   const settings = {
     dots: false,
@@ -17,7 +19,7 @@ function SliderComponent () {
         <div>
           <SliderDiv
             image={
-              'https://drive.google.com/file/d/1uQj0Y55Y1P-CBiV9Hr0U6r5WWc5ugQ90/view?usp=sharing'
+              Image1  
             }
             heading={'Best in Class Transportation Services'}
             subheading={'Pooja Roadways are the leaders in Transport services across India'}
@@ -26,8 +28,7 @@ function SliderComponent () {
         <div>
           <SliderDiv
             image={
-              'https://img.freepik.com/free-photo/many-transport-trucks-parked-service-station-sunset-ai-generative_123827-23416.jpg'
-            }
+             Image2}
             heading={'All India Transportation Services'}
             subheading={'We Provide Services Across india with wide range of Features'}
           />
@@ -35,8 +36,7 @@ function SliderComponent () {
         <div>
           <SliderDiv
             image={
-              'https://static.vecteezy.com/system/resources/previews/027/868/408/non_2x/a-big-truck-is-driving-along-the-highway-delivering-goods-the-concept-of-logistics-and-delivery-routes-by-road-ai-generated-free-photo.jpg'
-            }
+            Image3}
             heading={'Your Safety, Our Concern'}
             subheading={'WE are concerned with the safety of your goods and so provide a safe and secure travel logistics for your goods '}
           />
