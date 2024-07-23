@@ -1,21 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const OurClientsSection = () => {
+
+  const [readMore, setReadMore]= useState(false);
+
   return (
     <div className='text-center py-10'>
           <h1 className='font-md text-5xl'>Our <span className='font-light'>Clients</span></h1>
           <hr className='border-2 border-red-600  w-[5%] flex justify-center mx-auto mt-5'/>
-          <div className=' text-center space-y-3 md:grid grid-cols-4 items-center  w-[70%] mx-auto my-10 gap-10'>
-            <img  alt="logos of clients"src={require('../../Assets/Abott.png')}/>
-            <img  alt="logos of clients"src={require('../../Assets/Gautam.png')}/>
-            <img  alt="logos of clients"src={require('../../Assets/Nahar.jpeg')}/>
-            <img  alt="logos of clients"src={require('../../Assets/SCPL.png')}/>
-            <img  alt="logos of clients"src={require('../../Assets/vimal.png')}/>
-            <img  alt="logos of clients"src={require('../../Assets/Lupin.jpeg')}/>
-            <img  alt="logos of clients"src={require('../../Assets/US.jpeg')}/>
-            <img  alt="logos of clients"src={require('../../Assets/relianc3e.png')}/>
-           
-            <img  alt="logos of clients"src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVdM4vrgvoLXkkVdUBRWPszirrkF3bKqM-aA&s'}/>
+          <div className=' '>
+            {
+              readMore  ? (
+                <div className='text-center space-y-3 md:grid grid-cols-4 items-center  w-[70%] mx-auto my-10 gap-10'>
+                  <img  alt="logos of clients"src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVdM4vrgvoLXkkVdUBRWPszirrkF3bKqM-aA&s'}/>
             <img  alt="logos of clients"src={'https://lpgcylinder.in/wp-content/uploads/2019/08/PI-lOGO.png'}/>
             <img  alt="logos of clients"src={'https://rajshreefabrics.com/wp-content/uploads/2021/06/cropped-Logo-1-01-217x64.png'}/>
             <img  alt="logos of clients"src={'https://suryatextech.com/images/surya-textech-logo.png'}/>
@@ -64,6 +61,22 @@ const OurClientsSection = () => {
             <img  alt="logos of clients"src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUW-g1nT5BJDSmUsOa4pL91LaqX23byXwIWw&s'}/>
             
 
+                  </div>
+              ) :(<div className='text-center space-y-3 md:grid grid-cols-4 items-center  w-[70%] mx-auto my-10 gap-10'>
+                <img  alt="logos of clients"src={require('../../Assets/Abott.png')}/>
+            <img  alt="logos of clients"src={require('../../Assets/Gautam.png')}/>
+            <img  alt="logos of clients"src={require('../../Assets/Nahar.jpeg')}/>
+            <img  alt="logos of clients"src={require('../../Assets/SCPL.png')}/>
+            <img  alt="logos of clients"src={require('../../Assets/vimal.png')}/>
+            <img  alt="logos of clients"src={require('../../Assets/Lupin.jpeg')}/>
+            <img  alt="logos of clients"src={require('../../Assets/US.jpeg')}/>
+            <img  alt="logos of clients"src={require('../../Assets/relianc3e.png')}/>
+              </div>)
+            }
+           <button onClick={()=>setReadMore(!readMore) } className=' p-2 border border-white shadow-sm bg-red-600 text-xl font-semibold text-white animate-pulse'>
+            {readMore ? "See Less Clients":"See All Clients"}
+           </button>
+            
 
 
 
